@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace jun1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int startNumber = 5;
+            int foldingNumber = 7;
+            while (startNumber < 96)
+            {
+                startNumber += foldingNumber;
+                Console.WriteLine(startNumber);
+            }
+        }
+    }
+}
