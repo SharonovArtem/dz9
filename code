@@ -10,11 +10,10 @@ namespace jun1
     {
         static void Main(string[] args)
         {
-            int startNumber = 5;
-            int foldingNumber = 7;
-            while (startNumber < 96)
+            int addedNumber = 7;
+
+            for (int startNumber = 5; startNumber < 100; startNumber += addedNumber)
             {
-                startNumber += foldingNumber;
                 Console.WriteLine(startNumber);
             }
         }
