@@ -10,9 +10,7 @@ namespace jun1
     {
         static void Main(string[] args)
         {
-            int addedNumber = 7;
-
-            for (int startNumber = 5; startNumber < 100; startNumber += addedNumber)
+            for (int startNumber = 5; startNumber < 100; startNumber += 7)
             {
                 Console.WriteLine(startNumber);
             }
