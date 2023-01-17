@@ -10,9 +10,13 @@ namespace jun1
     {
         static void Main(string[] args)
         {
-            for (int startNumber = 5; startNumber < 100; startNumber += 7)
+            int startNumber = 5;
+            int maxNumber = 96;
+            int addedNumber = 7;
+
+            for (int i = startNumber; i <= maxNumber; i += addedNumber)
             {
-                Console.WriteLine(startNumber);
+                Console.WriteLine(i);
             }
         }
     }
